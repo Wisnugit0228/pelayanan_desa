@@ -1,0 +1,31 @@
+.berita {
+    line-height: 18px;
+    max-height: calc(18px * 3);
+    overflow: hidden;
+}
+.cropped {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.cropped img {
+    margin: -150px 0px 0px -150px;
+}
+
+.cropped1 {
+    width: 50px;
+    height: 40px;
+    overflow: hidden;
+}
+
+.cropped1 img {
+    width: 100%;
+}
+
+.isDisabled {
+    color: currentColor;
+    cursor: not-allowed;
+    opacity: 0.5;
+    text-decoration: none;
+}
